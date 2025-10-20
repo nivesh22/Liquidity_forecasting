@@ -1,0 +1,10 @@
+date,client_id,balance,currency,country,remuneration_condition_id,account_type_id,rem_remuneration_condition_id,rem_rate_type,rem_base_rate,rem_spread,rem_effective_date,acct_account_type_id,acct_type_name,acct_currency,acct_country
+2024-01-01,C001,10000,USD,USA,R001,A001,R001,fixed,0.01,0.005,2023-12-01,A001,Checking,USD,USA
+2024-01-02,C001,11000,USD,USA,R001,A001,R001,fixed,0.01,0.005,2023-12-01,A001,Checking,USD,USA
+2024-01-03,C001,12000,USD,USA,R001,A001,R001,fixed,0.01,0.005,2023-12-01,A001,Checking,USD,USA
+2024-01-01,C002,8000,GBP,UK,R002,A002,R002,fixed,0.012,0.004,2023-12-01,A002,Savings,GBP,UK
+2024-01-02,C002,8500,GBP,UK,R002,A002,R002,fixed,0.012,0.004,2023-12-01,A002,Savings,GBP,UK
+2024-01-03,C002,8300,GBP,UK,R002,A002,R002,fixed,0.012,0.004,2023-12-01,A002,Savings,GBP,UK
+2024-01-01,C003,7000,EUR,DE,R003,A003,R003,fixed,0.008,0.006,2023-12-01,A003,Checking,EUR,DE
+2024-01-02,C003,7200,EUR,DE,R003,A003,R003,fixed,0.008,0.006,2023-12-01,A003,Checking,EUR,DE
+2024-01-03,C003,7400,EUR,DE,R003,A003,R003,fixed,0.008,0.006,2023-12-01,A003,Checking,EUR,DE

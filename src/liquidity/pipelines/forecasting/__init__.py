@@ -1,0 +1,2 @@
+"""Forecasting pipeline package."""
+

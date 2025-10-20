@@ -1,0 +1,4 @@
+account_type_id,type_name,currency,country
+A001,Checking,USD,USA
+A002,Savings,GBP,UK
+A003,Checking,EUR,DE

@@ -1,0 +1,9 @@
+forecast_horizon_days: 30
+
+default_avg_interest_rate: 0.02
+
+country_avg_rate_overrides:
+  USA: 0.025
+  UK: 0.022
+  DE: 0.018
+

@@ -1,0 +1,23 @@
+name: liquidity
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pandas>=1.5
+  - numpy>=1.23
+  - pyyaml>=6.0
+  - pytest>=8
+  - pytest-cov
+  - pluggy>=1.5
+  - ruff
+  - pip:
+      - kedro==1.0.0
+      - kedro-datasets==8.1.0
+      - kedro-telemetry==0.6.3
+      - omegaconf>=2.3,<3
+      - streamlit>=1.27
+      - altair>=5
+      - cookiecutter>=2.6
+      - kedro-viz>=6
+      - -e .

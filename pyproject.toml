@@ -1,0 +1,59 @@
+[project]
+name = "liquidity"
+version = "0.1.0"
+description = "Kedro pipelines for deposit forecasting and a Streamlit dashboard"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Your Name" }]
+
+dependencies = [
+  "kedro>=1.0,<2",
+  "kedro-datasets>=8,<9",
+  "omegaconf>=2.3,<3",
+  "pandas>=1.5",
+  "numpy>=1.23",
+  "pyyaml>=6.0",
+  "streamlit>=1.27",
+  "altair>=5.0",
+  "kedro-viz>=6",
+]
+
+[tool.kedro]
+package_name = "liquidity"
+project_name = "Liquidity"
+kedro_init_version = "1.0.0"
+source_dir = "src"
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+select = [
+  "E",  # pycodestyle errors
+  "F",  # pyflakes
+  "I",  # isort
+  "B",  # bugbear
+]
+ignore = [
+  "E501",  # line length handled by formatter/editor
+]
+
+[tool.ruff.isort]
+known-first-party = ["liquidity"]
+combine-as-imports = true
+
+[tool.pytest.ini_options]
+addopts = "-q --cov=src --cov-report=term-missing"
+testpaths = ["tests"]
+
+[tool.kedro_telemetry]
+project_id = "c01091a5bc4e4e3885f5ab695bb58629"

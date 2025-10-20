@@ -1,0 +1,51 @@
+raw_eod_balances:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/eod_balances.csv
+
+raw_clients:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/clients.csv
+
+raw_remuneration:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/remuneration.csv
+
+raw_account_types:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/account_types.csv
+
+raw_interest_rates:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/interest_rates.csv
+
+processed_eod_balances:
+  type: pandas.CSVDataset
+  filepath: data/03_primary/processed_eod_balances.csv
+
+clients_master:
+  type: pandas.CSVDataset
+  filepath: data/03_primary/clients_master.csv
+
+linked_balances:
+  type: pandas.CSVDataset
+  filepath: data/04_feature/linked_balances.csv
+
+country_daily:
+  type: pandas.CSVDataset
+  filepath: data/05_model_input/country_daily.csv
+
+country_features:
+  type: pandas.CSVDataset
+  filepath: data/05_model_input/country_features.csv
+
+country_forecast:
+  type: pandas.CSVDataset
+  filepath: data/07_model_output/country_forecast.csv
+
+latest_summary:
+  type: pandas.CSVDataset
+  filepath: data/08_reporting/latest_summary.csv
+
+country_totals:
+  type: pandas.CSVDataset
+  filepath: data/08_reporting/country_totals.csv
